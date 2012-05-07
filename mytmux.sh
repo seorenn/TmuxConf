@@ -19,4 +19,4 @@ tmux split-window -v
 
 tmux select-window -t $SESSION:0
 tmux attach -t $SESSION
-tmux select-pane -LU
+tmux select-pane -t 0
